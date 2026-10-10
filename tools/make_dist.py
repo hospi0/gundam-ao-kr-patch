@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 
 VER = 'v0.9'
 XDELTA = r'C:\claude\utils\xdelta.exe'
-SRC = r'C:\claude\roms\ss\Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan)'
+SRC = r'C:\claude\roms\ss\완료\Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan)'
 OUT = r'F:\hospi\roms\ss roms\Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan)'
 ROM = 'Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan)'
 NAME = 'GundamSideStory2_KR_' + VER
