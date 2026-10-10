@@ -1,4 +1,4 @@
-# 기동전사 건담 외전 II 푸름을 이어받는 자 한글 패치 (Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono, 세가 새턴 일본판)
+# 기동전사 건담 외전 II 블루를 계승하는 자 한글 패치 (Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono, 세가 새턴 일본판)
 
 - 대상: Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan) — 트랙 01에 xdelta 패치 (트랙 02~12 오디오·cue 는 그대로, 트랙 01 크기도 그대로)
 - 내려받기: 릴리즈의 `GundamSideStory2_KR_v0.9.zip` — 안의 readme.txt 에 원본·패치 md5 와 적용 방법
@@ -13,7 +13,7 @@
 - 동영상 자막: 오프닝, 다음 편 예고
 - 결과 화면: 교관 평가·실패 메시지 21장, 항목 이름(전술득점·피탄율·종합전적·평가), 계급(소위·중위·대위)
 - STAGE SELECT 화면: 제N화·시나리오 제목·전술득점·피탄율·종합전적·평가
-- 시나리오 제목 5장, 타이틀 로고 부제(푸름을 이어받는자)
+- 시나리오 제목 5장, 타이틀 로고 부제(블루를 계승하는자)
 
 ## 알려진 점
 - 인게임 HUD·포즈·STATUS 등 영문 그림은 그대로
