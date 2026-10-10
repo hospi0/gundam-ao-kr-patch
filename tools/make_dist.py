@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-r"""건담 외전 I 전율의 블루 배포 묶음 — dist/GundamSideStory1_KR_<VER>/ : 트랙 01 xdelta + xdelta.exe + readme.txt(CP949) + 한글패치_적용.bat(CP949)
+r"""건담 외전 II 푸름을 이어받는 자 배포 묶음(1편 make_dist 에서, 2026-10-10) — dist/GundamSideStory2_KR_<VER>/ : 트랙 01 xdelta + xdelta.exe + readme.txt(CP949) + 한글패치_적용.bat(CP949)
   바뀌는 트랙: 트랙 01 만(트랙 02‥12 = 오디오, cue 도 그대로 — 트랙 01 크기도 그대로). 다이노 make_dist 꼴.
   검증: 원본 트랙 01 → xdelta 적용 → md5 = 설치본(F:) 트랙 01 md5.
   python tools/make_dist.py   (먼저 python tools/build.py --write → F: 설치)
@@ -9,11 +9,11 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 
 VER = 'v0.9'
 XDELTA = r'C:\claude\utils\xdelta.exe'
-SRC = r'C:\claude\roms\ss\Mobile Suit Gundam Side Story I - Senritsu no Blue (Japan)'
-OUT = r'F:\hospi\roms\ss roms\Mobile Suit Gundam Side Story I - Senritsu no Blue (Japan)'
-ROM = 'Mobile Suit Gundam Side Story I - Senritsu no Blue (Japan)'
-NAME = 'GundamSideStory1_KR_' + VER
-TITLE = '기동전사 건담 외전 I 전율의 블루 (Mobile Suit Gundam Side Story I - Senritsu no Blue, 세가 새턴 일본판) 한글 패치 ' + VER
+SRC = r'C:\claude\roms\ss\Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan)'
+OUT = r'F:\hospi\roms\ss roms\Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan)'
+ROM = 'Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono (Japan)'
+NAME = 'GundamSideStory2_KR_' + VER
+TITLE = '기동전사 건담 외전 II 푸름을 이어받는 자 (Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono, 세가 새턴 일본판) 한글 패치 ' + VER
 
 
 def md5(p):
@@ -50,16 +50,17 @@ README = """{title}
 
 [ 바뀌는 것 ]
 
-  - 음성 자막 143줄 - 원래 자막이 없는 게임이라 새로 넣었습니다
-      브리핑, 미션 전후 컷신, 결과 화면 내레이션 (음성 재생 위치에 맞춰 넘어갑니다)
-  - 결과 화면: 교관 평가·실패 메시지 14장, 항목 이름(전술득점·피탄율·종합전적·평가)
-  - 시나리오 제목 5장
+  - 음성 자막 158줄 - 원래 자막이 없는 게임이라 새로 넣었습니다
+      브리핑, 미션 전후 컷신, 결과 화면 (음성 재생 위치에 맞춰 넘어갑니다)
+  - 미션 사이 막간 화면 글 5편
+  - 동영상 자막: 오프닝, 다음 편 예고
+  - 결과 화면: 교관 평가·실패 메시지 21장, 항목 이름(전술득점·피탄율·종합전적·평가), 계급(소위·중위·대위)
+  - 시나리오 제목 5장, 타이틀 로고 부제(푸름을 이어받는자)
 
 
 [ 알려진 점 ]
 
   - 인게임 HUD·포즈 화면·STATUS 등 영문 그림은 그대로입니다.
-  - 결과 화면의 계급(少尉 등)은 아직 일본어입니다.
   - 자막 원문은 음성을 받아쓴 것이라 일부 대사가 실제와 다를 수 있습니다.
 """
 
